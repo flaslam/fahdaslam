@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Model from "../components/model";
 
 export default function Home() {
   return (
@@ -10,7 +11,9 @@ export default function Home() {
       </Head>
 
       <main>
-        <div>-</div>
+        <div className="h-screen w-screen">
+          <Model />
+        </div>
       </main>
 
       <footer></footer>
